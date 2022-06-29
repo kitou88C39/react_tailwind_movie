@@ -14,7 +14,7 @@ function PageNotFound() {
   }, [time, navigate]);
   return (
     <div className='bg-gray-700 h-screen flex flex-col items-center justify-center text-8xl font-bold'>
-      <div className='text-red-600'>404</div>
+      <div className='text-red-500'>404</div>
       <div className='text-4xl text-white'>Page Not Found</div>
       <div className='text-4xl text-white'>
         Redirecting to home page in {time} sec
